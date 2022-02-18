@@ -1,4 +1,14 @@
-#informacion {
+#information, #profile {
+    width: 30%;
+    float: left;
+    display: block;
+}
+
+#foto_perfil {
+    float: right;
+}
+
+#information {
     text-align: center;
 }
 
