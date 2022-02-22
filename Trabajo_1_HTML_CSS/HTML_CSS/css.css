@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+.header{
+    background-color:coral;
+    width:100%;
+    height:7%;
+}
+
+    #imagen_Buscador{
+        width:30%;
+        height:45%;
+        display:inline-block;
+        vertical-align:middle;
+        float:none;
+        margin-top:0.5%;
+        margin-bottom:0.5%;
+        margin-left:2%;
+        margin-right:2%;
+        border: 2%;
+    }
+
+    #ubicacion{
+        display:inline-block;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size:13px;
+        float:none;
+        vertical-align:middle;
+        text-decoration:underline;
+        color:white;
+        padding:0.5%;
+        margin-top:0.5%;
+        margin-bottom:0.5%;
+        margin-left:18%;
+        margin-right:18%;
+        border: 2%;
+    }
+
+    #imagen_Pais {
+        align-items: center;
+        vertical-align:middle;
+        float:none;
+        width:1.5%;
+        height:40%;
+        display:inline-block;
+        padding:0.5%;
+        margin:3px;
+        border:2%;
+    }
+
+    #imagen_Menu {
+        float:none;
+        vertical-align:middle;
+        display:inline-block;
+        width:1%;
+        height:40%;
+        padding:0.5%;
+        margin-right:2%;
+        margin-left:3px;
+        border:2%;
+    }
+
+/* ---------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+
+.canasta {
+    background-color: white;
+    float:right;
+    width:30%;
+    height:100%;
+    margin:0;
+    border:0;
+}
+
+    #titulo_Derecha{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size:20px;
+        color:rgb(4, 58, 58);
+        padding:10px;
+        margin:2%;
+        text-align:center;
+    }
+
+    #imagen_canasta{
+        display:block;
+        float:right;
+        width:10%;
+        height:5%;
+        margin-top:15%; 
+        margin-left:45%;
+        margin-right:45%;
+        margin-bottom:2.3%;
+    }
+
+    #texto_Canasta{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color:rgb(4, 58, 58);
+        padding:3px;
+        margin:2%;
+        text-align:center;
+        font-size:15px;
+    }
+
+    #texto_Inferior_Canasta{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color:black;
+        text-align:center;
+        font-size:10px;
+        margin:0px 10%;
+    }
+/* ---------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+
+.portada {
+    background-color: darkgray;
+    float:left;
+    width:70%;
+    height:10%;
+}
+
+    #imagen_Portada {
+        vertical-align:middle;
+        width:100%;
+        height:200px;
+    }
+
+/* ---------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+
+.nombreCalif {
+    background-color: whitesmoke;
+    float:left;
+    width:70%;
+    height:5%;
+    position:relative;
+    top:130px;
+}
+
+    #nombre_Restaurante {
+        float:left;
+        vertical-align:middle;
+        font-size:18px;
+        color:rgb(5, 95, 95);
+        padding:0.7%;
+        margin-left:2%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #imagen_Logo {
+        position:relative;
+        display:inline-block;
+        margin-left:30%;
+        width:13%;
+        height:340%;
+        bottom:45px;
+        z-index:1;
+    }
+
+    #imagen_Informacion {
+        position:relative;
+        display:inline-block;
+        margin-left:92%;
+        width:1.8%;
+        height:50%;
+        bottom:100px;
+    }
+
+    #imagen_Corazon {
+        position:relative;
+        display:inline-block;
+        width:1.8%;
+        height:50%;
+        bottom:100px;
+        margin-left:95%;
+        bottom:115px;
+    }
+
+/* ---------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+
+.puntuacion {
+    background-color:whitesmoke;
+    float:left;
+    width:70%;
+    height:5%;
+    position:relative;
+    top:130px;    
+}
+
+    #estrella_1{
+        display:inline-block;
+        width:2%;
+        height:50%;
+        margin-left:2%;
+        padding:0.8%;
+    }
+
+    #estrella_2{
+        display:inline-block;
+        width:2%;
+        height:50%;
+        padding:0.8%;
+    }
+
+    #estrella_3{
+        display:inline-block;
+        width:2%;
+        height:50%;
+        padding:0.8%;
+    }
+
+    #estrella_4{
+        display:inline-block;
+        width:2%;
+        height:50%;
+        padding:0.8%;
+    }
+
+    #estrella_5{
+        display:inline-block;
+        width:2%;
+        height:50%;
+        padding:0.8%;
+    }
+
+    #no_Resenas {
+        position:relative;
+        display:inline-block;
+        margin-left:23%;
+        padding:10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:10px;
+        vertical-align:middle;
+        color:orangered;
+        padding:2%;
+        bottom:42px;
+    }
+
+/* ---------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+
+.descripcion {
+    background-color:whitesmoke;
+    float:left;
+    width:70%;
+    height:4%;
+    position:relative;
+    top:130px;
+}
+    #desc {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:rgb(5, 128, 128);
+        margin-left:3%;
+        margin-top:0.4%;
+        font-size:10px;
+    }
+
+/* ---------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+
+.lista {
+    background-color:whitesmoke;
+    float:left;
+    width:70%;
+    height:5%;
+    position:relative;
+    top:130px;
+}
+
+    #lista_Platos ul{
+        margin-left:8%;
+    }
+
+    #lista_Platos ul li {
+        float:left;
+        display:block;
+        position:relative;
+        list-style: none;
+        padding:5.8px 17px;
+        text-decoration:none;
+    }
+/* ---------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+
+.decorado {
+    display:block;
+    background-color:whitesmoke;
+    float:left;
+    width:70%;
+    height:1%;
+    position:relative;
+    top:130px;
+}
+
+    #imagen_Lupa {
+        position:relative;
+        float:left;
+        display:block;
+        width:2.5%;
+        height:350%;
+        margin-left:3%;
+        padding:1%;
+        bottom:35px;
+    }     
+
+/* ---------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
+.precios{
+    display:block;
+    background-color:rgba(231, 227, 227, 0.726);
+    float:left;
+    width:70%;
+    height:60%;
+    position:relative;
+    top:130px;
+}
+
+    #seccion_actual {
+        display:block;
+        position:relative;
+        background-color: rgb(224, 218, 218);
+        float:left;
+        margin:3% 10px;
+        color:rgb(2, 71, 71);
+        left:80px;
+    }
+
+
+    .sushi_Pequeno_Total{
+        display:block;
+        background-color:rgb(224, 218, 218);
+        float:left;
+        width:70%;
+        height:20%;
+        position:relative;
+        top:80px;
+        right:10px;
+        border:3%;
+    }
+
+        #sushi_Pequeno{
+            border:2%;
+            color:rgb(2, 71, 71)
+        }
+        
+        #sushi_Pequeno_Info{
+            position:relative;
+            border:2%;
+            left:200px;
+            bottom:15px;
+            font-size:11px;
+            color:rgb(76, 168, 168)
+        }
+
+        #sushi_Pequeno_Descripcion{
+            position:relative;
+            color:black;
+            padding:3px;
+            bottom:7px;
+            font-size:13px;
+        }
+
+        #sushi_Pequeno_Precio{
+            position:relative;
+            color:orangered;
+            font-size:17px;
+            padding:2px;
+        }
+
+
+    .sushi_Familiar_Total{
+        display:block;
+        background-color:rgb(224, 218, 218);
+        float:left;
+        width:70%;
+        height:20%;
+        position:relative;
+        top:70px;
+        right:95px;
+        border:2%;
+        margin:40px 85px;
+    }
+
+        #sushi_Familiar{
+            border:2%;
+            color:rgb(2, 71, 71)
+        }
+    
+        #sushi_Familiar_Info{
+            position:relative;
+            border:2%;
+            left:200px;
+            bottom:15px;
+            font-size:11px;
+            color:rgb(76, 168, 168)
+        }
+
+        #sushi_Familiar_Descripcion{
+            position:relative;
+            color:black;
+            padding:3px;
+            bottom:7px;
+            font-size:13px;
+        }
+    
+        #sushi_Familiar_Precio{
+            position:relative;
+            color:orangered;
+            font-size:17px;
+            padding:2px;
+        }
+/* ---------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------*/
